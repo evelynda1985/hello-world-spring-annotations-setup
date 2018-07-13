@@ -12,13 +12,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.*; 
 
-// very important to import this import java.sql.*;
 
 //En general this is the same process for a test your database connection
 // you can just copy and paste it and update username, password, url and driver in case they are different and print out is optional.
 
+//very important to import this --> import java.sql.*;
 
-@WebServlet("/TestDatabase")
+
+@WebServlet("/TestDatabase") //after run the server add this path on the end to know if your connection is sucessfull and verify in the console
 public class TestDBServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
