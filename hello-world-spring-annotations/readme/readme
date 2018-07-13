@@ -1,0 +1,19 @@
+Steps for your initial set up for Spring, Hibernate, Database and the packages you need for your project
+
+1.Create a dynamic project
+2. Add to lib -> MySQl conector 
+3. Test the connection 
+	3.1 create a servlet
+4. Copy and update spring-config and web-inf xml files on WEB-INF folder
+
+5.Add to lib javax.servlet.jsp.jstl-1.2.1 and javax.servlet.jsp.jstl-api-1.2.1
+6. Download spring release riles www.luv2.com/downloadspring and copy all lib files
+7. Download hibernate files hibernate.org/orm/downloads
+	only required files AND optional C3PO and paste them
+
+8. Test MVC Controller
+	8.1 create the controller
+	8.2 Create the page (WEB-INF create view folder)
+
+9. Hands on :)
+ 	9.1 Controller, service, dao, entity
